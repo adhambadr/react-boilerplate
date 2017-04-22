@@ -8,9 +8,13 @@ export default class Main extends React.Component
     }
     render() {
         return (
-            <h4>
-                {this.props.msg}
-            </h4>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-10 col-lg-offset-2">
+                        <p>{this.props.msg}</p>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
