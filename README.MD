@@ -1,22 +1,20 @@
-Boiler plate includes: 
-
-loaders:
-css Loaders
-json files
-SVG
-PNG
-Fonts (woff ttf eot)
-
+## Barebones React Boilerplate 
+with Webpack, Babel, ES2015 as well as:
+- Hode Module
+- Bootstrap
+- Font Loaders (woff, ttf, eot)
+- CSS Loaders
+- JSON loaders
+- SVG, PNG loaders
 
 ## Installing
-# Install Dependancies
+### Install Dependancies
 ```
 npm i 
 ```
-
-# Start Hot Module
+### Start Hot Module
 ```
 npm start
 ```
 
-open localhost:8080
+navigate to http://localhost:8080/webpack-dev-server/index.html for the hotmodule / autorefresh version of the page & to localhost:8080 to use the React developer tools. 
